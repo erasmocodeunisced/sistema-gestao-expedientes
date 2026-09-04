@@ -15,5 +15,6 @@
         });
     }());
 </script>
+<footer class="app-footer">Sistema desenvolvido por Sérgio e Erasmo</footer>
 </body>
 </html>

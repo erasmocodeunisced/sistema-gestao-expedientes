@@ -113,11 +113,13 @@ dd { margin: 0; overflow-wrap: anywhere; font-weight: 600; }
 @media print { .no-print { display: none !important; } body { background: #FFFFFF; } .content-shell { width: 100%; padding: 0; } .report-summary { grid-template-columns: repeat(4, 1fr); }.metric-card { border: 1px solid var(--primary); color: var(--text); background: #FFFFFF; }.metric-card span { color: var(--muted); }.report-panel { break-inside: avoid; box-shadow: none; } }
 
 .dashboard-layout > .app-topbar { margin-left: 252px; }
+.app-footer { margin-left: 252px; padding: 18px 42px 24px; color: var(--muted); font-size: .75rem; text-align: right; }
 .dashboard-layout { display: block; }
 .dashboard-layout > main.content-shell, .dashboard-layout > main.dashboard-shell { width: auto; max-width: none; margin-left: 252px; margin-right: 0; }
 .sidebar-brand .brand-symbol { text-decoration: none; }
 
 @media (max-width: 760px) {
-    .dashboard-layout > .app-topbar, .dashboard-layout > main.content-shell, .dashboard-layout > main.dashboard-shell { margin-left: 0; margin-right: 0; }
+    .dashboard-layout > .app-topbar, .dashboard-layout > main.content-shell, .dashboard-layout > main.dashboard-shell, .app-footer { margin-left: 0; margin-right: 0; }
+    .app-footer { padding: 18px 20px 24px; text-align: center; }
     .dashboard-layout > main.content-shell, .dashboard-layout > main.dashboard-shell { width: 100%; }
 }
