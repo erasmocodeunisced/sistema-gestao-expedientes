@@ -37,6 +37,7 @@
 
                 <button type="submit">Entrar</button>
             </form>
+            <p class="auth-credit">Sistema criado por Sérgio e Erasmo</p>
         </section>
     </main>
 </body>
